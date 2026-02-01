@@ -57,6 +57,18 @@ The focus is on how QA supports CI/CD processes, not on infrastructure or DevOps
 
 ---
 
+## 🔧 Jenkins Pipeline (Beginner)
+
+This repository includes a basic Jenkins pipeline example to demonstrate
+how automated tests can be executed as part of a CI process from a QA perspective.
+
+The pipeline includes stages for:
+- Code checkout
+- Build
+- Test execution
+- Result reporting
+
+
 ## 👩‍💻 Author
 
 Mahaya Zeb Khan  
