@@ -1,0 +1,29 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code') {
+            steps {
+                echo 'Fetching latest code'
+            }
+        }
+
+        stage('Build') {
+            steps {
+                echo 'Building application'
+            }
+        }
+
+        stage('Run Tests') {
+            steps {
+                echo 'Executing automated tests'
+            }
+        }
+
+        stage('Results') {
+            steps {
+                echo 'Publishing test results'
+            }
+        }
+    }
+}
